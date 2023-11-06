@@ -1,0 +1,5 @@
+.trial_lessons/
+.trial_tests/
+.idea/
+venv/
+venv.bak/
