@@ -1,0 +1,160 @@
+body {
+
+	font-family: 'Ubuntu', sans-serif;
+
+	background-color: #dbdbdb;
+
+}
+
+button {
+	background: #257C6B;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+button:hover {
+	background: #C2803A;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:white;
+	text-decoration: none;
+}
+
+hr {
+	display: inline-block;
+	margin: 5px;
+	border: none; 
+    background-color: grey;
+    height: 2px;
+    width: 250px;
+    align-content: flex-start;
+
+}
+
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar button {
+    margin-top: 3px;
+}
+
+.main {
+    margin-top: 50px;
+}
+.blog-title {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.blog-title h1 {
+	font-weight: bold;
+}
+
+.film-post {
+	margin-bottom: 50px;
+	
+}
+
+.film-post img{
+	width: 100%;
+  	height: 300px;
+
+}
+
+.post-head {
+	margin-top: 100px;
+	margin-bottom: 10px
+}
+
+.post-head h2 {
+	margin-top: 0px;
+}
+
+.post_film_tags {
+    display: inline;
+}
+
+.post-head-title {
+	padding-left: 25px;
+}
+
+.post-head img {
+	width: 100%;
+  	height: auto;
+}
+
+.post-body {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.post-body p {
+	font-size: 16px;
+}
+
+footer {
+	background: #222222;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer hr {
+	display: inline-block;
+	margin-bottom: 15px;
+	border: none; 
+    background-color: white;
+    height: 1px;
+    width: 300px;
+}
+
+.post-add-title {
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.post-add-form {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.post-add-button {
+	background: green;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	
+}
+
+@media (max-width: 767px){
+.navbar button {
+    margin-left: 10px;
+}
+}

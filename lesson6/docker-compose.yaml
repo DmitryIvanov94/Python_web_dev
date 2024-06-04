@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: my_blog
+      MYSQL_USER: bob1
+      MYSQL_PASSWORD: bob123
+    ports:
+      - "5432:5432"
+
+  web:
+    build: ./web
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/python_web_dev
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db

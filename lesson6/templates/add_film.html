@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}
+Добавить фильм
+{% endblock %}
+
+ {% block body %}
+    <div class="container main">
+    	<div class="row post-add-title">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2>Добавить пост</h2>
+            </div>
+        </div>
+    	<div class="row post-add-form ">
+  			<div class="col-lg-6 col-lg-offset-3">
+                <form method="POST" role="form">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="text" name="film_title" placeholder="Название фильма">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment" name="film_text" placeholder="Добавьте отписание фильма"></textarea>
+                    <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                    </div>
+                </form>
+  			</div>	
+        </div>
+    </div> 
+ {% endblock %}
